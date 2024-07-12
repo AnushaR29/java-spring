@@ -1,0 +1,13 @@
+DELETE http://localhost:8091/remove/1
+
+###
+
+GET http://localhost:8091/industries
+
+###
+
+POST http://localhost:8091/client
+
+###
+
+PUT http://localhost:8091/change/4

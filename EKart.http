@@ -1,0 +1,36 @@
+GET http://localhost:8091/Order/
+
+###
+
+POST http://localhost:8091/Order/
+Content-Type: application/json
+
+{
+    "receiverName" : "Bruzz", 
+    "parcelItemName" : "Dress",
+    "receiverAddress" : "Tgode",
+    "contact" : 9874563456,
+    "itemPrice" : 200,
+    "itemStatus" : "Delivered",
+    "executiveName" : "Ajio" 
+}
+
+###
+
+PUT  http://localhost:8091/Order/
+Content-Type: application/json
+
+{
+    "parcelId" : 2,
+    "receiverName" : "Bruzz brilliant", 
+    "parcelItemName" : "Dress",
+    "receiverAddress" : "Salem",
+    "contact" : 9876543456,
+    "itemPrice" : 2000,
+    "itemStatus" : "Delivered",
+    "executiveName" : "Filpkart" 
+}
+
+###
+
+DELETE http://localhost:8091/Order

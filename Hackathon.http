@@ -1,0 +1,18 @@
+GET http://localhost:8091/Management/students
+
+
+###
+
+POST http://localhost:8091/Management/student
+Content-Type: application/json
+
+Abi
+
+###
+
+PUT http://localhost:8091/Management/change/2
+Content-Type: application/json
+
+####
+
+DELETE http://localhost:8091/Management/remove/Anusha
